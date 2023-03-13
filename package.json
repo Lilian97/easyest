@@ -2,30 +2,14 @@
   "name": "easyest",
   "version": "1.0.0",
   "description": "",
-  "main": "lib/index.js",
-  "module": "lib/index.js",
-  "files": [
-    "es",
-    "lib"
-  ],
+  "main": "index.js",
   "scripts": {
     "build:easyest": "gulp -f packages/components/script/build/index.ts",
-    "release": "release-it"
+    "publish:easyest": "gulp -f packages/components/script/publish/index.ts"
   },
-  "keywords": [
-    "easyest",
-    "vue3组件库"
-  ],
-  "sideEffects": [
-    "**/*.css"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://gitee.com/lilian97/easyest"
-  },
+  "keywords": [],
   "author": "",
-  "license": "MIT",
-  "typings": "lib/index.d.ts",
+  "license": "ISC",
   "devDependencies": {
     "@types/gulp": "^4.0.10",
     "@types/gulp-autoprefixer": "^0.0.33",
