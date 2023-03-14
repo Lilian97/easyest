@@ -6,5 +6,5 @@
 </template>
 
 <script lang="ts" setup>
-// import { Button } from "easyest";
+// import { Button } from "lilyui";
 </script>

@@ -1,5 +1,5 @@
 {
-  "name": "easyest",
+  "name": "lilyui",
   "version": "1.0.1",
   "description": "",
   "main": "lib/index.js",
@@ -9,11 +9,10 @@
     "lib"
   ],
   "scripts": {
-    "publish:easyest": "gulp -f packages/components/script/publish/index.ts",
     "release": "release-it"
   },
   "keywords": [
-    "easyest",
+    "lilyui",
     "vue3组件库"
   ],
   "sideEffects": [

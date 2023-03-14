@@ -1,5 +1,5 @@
 {
-  "name": "@easyest/b",
+  "name": "@lilyui/b",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,6 +11,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@easyest/a": "workspace:^1.0.0"
+    "@lilyui/a": "workspace:^1.0.0"
   }
 }

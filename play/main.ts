@@ -1,6 +1,6 @@
 import { createApp } from "vue";
 import App from "./app.vue";
-import easyest from "@easyest/components"
+import lilyui from "@lilyui/components"
 const app = createApp(App);
-app.use(easyest)
+app.use(lilyui)
 app.mount("#app");

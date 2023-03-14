@@ -7,7 +7,7 @@ import run from "../utils/run";
 // delete dist
 
 export const removeDist = () => {
-  return delPath(`${pkgPath}/easyest`)
+  return delPath(`${pkgPath}/lilyui`)
 }
 
 //打包样式
@@ -15,8 +15,8 @@ export const buildStyle = () => {
   return src(`${componentPath}/src/**/style/**.less`)
     .pipe(less())
     .pipe(autoprefixer())
-    .pipe(dest(`${pkgPath}/easyest/lib/src`))
-    .pipe(dest(`${pkgPath}/easyest/es/src`));
+    .pipe(dest(`${pkgPath}/lilyui/lib/src`))
+    .pipe(dest(`${pkgPath}/lilyui/es/src`));
 };
 
 //打包组件

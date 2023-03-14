@@ -24,7 +24,7 @@ const delPath = async (path: string) => {
       }
     })
 
-    if(path != `${pkgPath}/easyest`) fs.rmdirSync(path)
+    if(path != `${pkgPath}/lilyui`) fs.rmdirSync(path)
   }
 }
 export default delPath

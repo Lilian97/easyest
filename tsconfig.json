@@ -10,6 +10,6 @@
     "moduleResolution": "Node",
     "lib": ["esnext", "dom"],
     "types": ["unplugin-vue-define-options/macros-global"]/* 声明包文件，否则提示找不到defineOptions函数 */
-    // "types": ["easyest/lib/src/components"]}
+    // "types": ["lilyui/lib/src/components"]}
   }
 }
