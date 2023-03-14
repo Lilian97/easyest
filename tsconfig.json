@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "jsx": "preserve",
+    "strict":true,
+    "target": "ES2015",
+    "module": "ESNext",
+    "skipLibCheck": false,
+    "esModuleInterop": true,
+    "moduleResolution": "Node",
+    "lib": ["esnext", "dom"],
+    "types": ["unplugin-vue-define-options/macros-global"]/* 声明包文件，否则提示找不到defineOptions函数 */
+    // "types": ["lilyui/lib/src/components"]}
+  }
+}
